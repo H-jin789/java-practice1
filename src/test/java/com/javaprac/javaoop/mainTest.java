@@ -6,8 +6,10 @@ class mainTest {
 
     @Test
     void main() {
+        //Given
+        String[] args = {"3","1","2"};
 
         //When & Then
-        Main.main(null);
+        Main.main(args);
     }
 }
